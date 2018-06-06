@@ -47,7 +47,7 @@
     
     
 <link rel="stylesheet" type="text/css" href="/css/page.css">
-<link rel="stylesheet" type="text/css" href="/css/categories.css">
+<link rel="stylesheet" type="text/css" href="/css/post.css">
 
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <link rel="stylesheet" type="text/css" href="/css/atom-one-dark.css">
@@ -82,7 +82,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>Categories | HappyKai's Kindom - Keep going</title>
+    <title>模式识别与分析 | HappyKai's Kindom - Keep going</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="default"  data-spy="scroll" data-target=".list-group">
     
@@ -104,7 +104,7 @@
     
     <li><a href="/">首页</a></li>
     
-    <li><a href="/categories/" class="current">分类</a></li>
+    <li><a href="/categories/">分类</a></li>
     
     <li><a href="/tags/">标签</a></li>
     
@@ -125,25 +125,142 @@
         <div class="main-container">
           <div class="content">
             
-<div class="categories" id="categories">
-  <article class="page-article card">
-    <header class="page-header">
-      <h1 class="page-title" itemprop="name headline">Categories</h1>
-    </header>
-    <main class="page-main">
-      <div class="categories-container">
-        <h2 class="categories-counter">
+<div id="post" class="post">
+  
+  <article class="post-container card" itemscope itemtype="http://schema.org/Article">
+    <div class="post-block">
+      <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/06/MIT-PatternRecognition/">
+      <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+       <meta itemprop="name" content="HappyKai">
+       <meta itemprop="description" content="">
+       <meta itemprop="image" content="/images/avatar.png">
+      </span>
+      <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+       <meta itemprop="name" content="HappyKai's Kindom">
+      </span>
+    </div>
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">模式识别与分析</h1>
+      <div class="post-meta">
+        
+        <span class="post-date">
+          <i class="far fa-calendar-plus"></i><span><time title="post-date" itemprop="dateCreated datePublished" datetime="2018-06-06T21:06:22+08:00">2018-06-06 21:06:22</time></span>
+        </span>
+        
+        
+        
+        <span class="post-meta-divider divider">|</span>
+        
+        <span class="post-categories">
           
-          You have 1 category, keep on!
-          
-        </h2>
-        <div class="categories-list">
-          <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/MIT/">MIT</a><span class="category-list-count">1</span></li></ul>
-        </div>
+          <i class="far fa-folder-open"></i><span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/MIT/" itemprop="url" rel="index"><span itemprop="name">MIT</span></a></span>
+        </span>
+        
+        
+        
+        
+        <span class="post-meta-divider divider">|</span>
+        
+        <span class="post-comment-count">
+          <i class="far fa-comments"></i><span><a href="/2018/06/06/MIT-PatternRecognition/#disqus_thread" itemprop="discussionUrl"><span class="post-comment-count disqus-comment-count" data-disqus-identifier="2018/06/06/MIT-PatternRecognition/" itemprop="commentCount"></span></a></span>
+        </span>
+        
+        
       </div>
+    </header>
+    <main class="post-main" itemprop="articleBody">
+      <p>这是<a href="https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm" target="_blank" rel="noopener">MIT的一门课程</a>，英文名叫<em>Pattern Recognition and Analysis</em>，在这里记下我的学习笔记。</p>
+<p>这门课涉及了表征和识别数字数据中的模式及特征的基础知识，讨论了用户建模(user modeling), 影响识别(affect recognition), 语音识别(speech recognition), 计算机视觉(computer vision), 生理分析(physiological analysis)等应用等基本工具和理论，覆盖了决策理论(decision theory)， 统计分类(statistical classification)，最大似然(maximum likelihood)和贝叶斯估计(Bayesian estimation)， 非参数方法(nonparametic methods)， 无监督学习(unsupervised learning)和聚类(clustering)，还包含了一些来自active reaserch等机器和人类学习相关话题。<br><a id="more"></a></p>
+<h1 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h1><ul>
+<li>介绍模式识别(Pattern Recognition)，特征检测(Feature Detection)，分类(classification)</li>
+<li>综述概率论(Probability Theory)，条件概率(Conditional Probability)和贝叶斯规则(Bayes Rule)</li>
+<li>随机向量(Random Vectors)，期望(Expectation)，相关(Correlation)，协方差(Covariance)</li>
+<li>综述线性代数(Linear Algebra)，线性变换(Linear Transformations)</li>
+<li>决策理论(Decision Theory)， ROC曲线(ROC Curves), 似然比检验(likelihood Ratio Test)</li>
+<li>线性和二次判别式(Linear and Quadratic Discriminants)，Fisher判别式(Fisher Discriminate)</li>
+<li>充分统计量(Sufficient Statistics)，应对缺失或噪声特征</li>
+<li>基于模版等识别(Template-based Recognition)，特征提取(Feature Extraction)</li>
+<li>特征向量(Eigenvector)与多重线性分析(Multilinear Analysis)</li>
+<li>训练方法，最大似然和贝叶斯参数估计</li>
+<li>线性判别/感知器学习，梯度下降优化</li>
+<li>支持向量机</li>
+<li>K-近邻分类</li>
+<li>非参数分类，密度估计，Parzen估计</li>
+<li>无监督学习，聚类，矢量量化(Vector Quantization)， K-Means</li>
+<li>混合建模， 期望最大化</li>
+<li>隐马尔可夫模型， Viterbi算法， Baum-Welch算法</li>
+<li>线性动态系统，卡尔曼滤波</li>
+<li>贝叶斯网络</li>
+<li>决策树， 多层感知器</li>
+<li>人机交互中的强化学习</li>
+<li>遗传算法(Genetic Algorithms)</li>
+<li>多分类器“Committee Machines”的组合</li>
+</ul>
+
     </main>
-    <footer class="page-footer"></footer>
+    <footer class="post-footer">
+      
+      
+      <div class="post-tags">
+        
+        
+        
+        
+        <a class="post-tag button" href="/tags/MIT课程/" style="background: #fc6423;" rel="tag"><i class="fas fa-tags"></i>MIT课程</a>
+        
+        <a class="post-tag button" href="/tags/模式识别/" style="background: #a3bb54;" rel="tag"><i class="fas fa-tags"></i>模式识别</a>
+        
+      </div>
+      
+    </footer>
   </article>
+  
+  
+<div class="reward" id="reward">
+  <p>如果这篇文章对您有帮助，感谢点赞，如果非常有帮助，感谢打赏0.66元:)</p>
+  <button id="reward-button" class="button" disable="enable">Reward</button>
+  <div id="qr" class="qr" style="display: none;">
+    
+    <div id="wechat">
+      <img id="wechat_qr" src="/images/WeChatPay.jpeg" alt="WechatPay"/>
+      <span>WechatPay</span>
+    </div>
+    
+    
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+<div class="comments" id="comments">
+  
+  <script defer id="dsq-count-scr" src="//happykai-cn.disqus.com/count.js"></script>
+  
+  <div id="disqus_thread" class="disqus_thread"></div>
+  <script type="text/javascript">
+  var disqus_config = function () {
+    this.page.url = "http://yoursite.com/2018/06/06/MIT-PatternRecognition/";
+    this.page.identifier = "2018/06/06/MIT-PatternRecognition/";
+  };
+  (function() {
+    var d = document, s = d.createElement("script");
+    s.src = "https://happykai-cn.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  
+  
+</div>
+
+
+
+  
 </div>
 
           </div>
@@ -180,6 +297,20 @@
 
 
   <div class="sidebar-sticky">
+    
+    
+
+
+
+
+<hr>
+<div class="post-toc sidebar-item" id="toc-div">
+  <div><i class="fas fa-list-ol"></i>Table of Contents</div>
+  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#大纲"><span class="toc-text">大纲</span></a></li></ol></div>
+</div>
+
+
+
     
     
     
