@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-06T14:31:10.000Z</updated>
+  <updated>2018-06-07T01:44:51.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://yoursite.com/2018/06/06/MIT-PatternRecognition/"/>
     <id>http://yoursite.com/2018/06/06/MIT-PatternRecognition/</id>
     <published>2018-06-06T13:06:22.000Z</published>
-    <updated>2018-06-06T14:31:10.000Z</updated>
+    <updated>2018-06-07T01:44:51.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;这是2006年秋季&lt;a href=&quot;https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MIT的一门课程&lt;/a&gt;，英文名叫&lt;em&gt;Pattern Recognition and Analysis&lt;/em&gt;，课程视频在&lt;a href=&quot;https://www.youtube.com/watch?v=J66RrnZZkOw&amp;amp;list=PLuRaSnb3n4kRDZVU6wxPzGdx1CN12fn0w&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;YouTube&lt;/a&gt;，教程在&lt;a href=&quot;https://web.archive.org/web/20110715184521/http://rii.ricoh.com/~stork/DHS.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里&lt;/a&gt;，在这里记下我的学习笔记。&lt;/p&gt;
+      &lt;p&gt;这是2006年秋季&lt;a href=&quot;https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MIT的一门课程&lt;/a&gt;，英文名叫&lt;em&gt;Pattern Recognition and Analysis&lt;/em&gt;，课程只给了Readings，是&lt;em&gt;Pattern Classification&lt;/em&gt;，作者是Duda，在这里记下我的学习笔记。&lt;/p&gt;
 &lt;p&gt;这门课涉及了表征和识别数字数据中的模式及特征的基础知识，讨论了用户建模(user modeling), 影响识别(affect recognition), 语音识别(speech recognition), 计算机视觉(computer vision), 生理分析(physiological analysis)等应用等基本工具和理论，覆盖了决策理论(decision theory)， 统计分类(statistical classification)，最大似然(maximum likelihood)和贝叶斯估计(Bayesian estimation)， 非参数方法(nonparametic methods)， 无监督学习(unsupervised learning)和聚类(clustering)，还包含了一些来自active reaserch等机器和人类学习相关话题。&lt;br&gt;
     
     </summary>
     
-      <category term="MIT" scheme="http://yoursite.com/categories/MIT/"/>
+      <category term="MIT - Pattern Recognition" scheme="http://yoursite.com/categories/MIT-Pattern-Recognition/"/>
     
     
       <category term="MIT课程" scheme="http://yoursite.com/tags/MIT%E8%AF%BE%E7%A8%8B/"/>
