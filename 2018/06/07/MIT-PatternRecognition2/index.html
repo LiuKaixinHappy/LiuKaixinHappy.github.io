@@ -216,7 +216,7 @@
 </ul>
 <p>使用上述方法就可以计算出p(sea bass|x)的概率，p(sea bass|x)同理，如此就可以给出x=5时候的猜测。<br>上述计算公式(4)就是<strong>贝叶斯公式</strong>，通用写法为：<br>$$P\left(\omega_{j} | x \right) = \frac{p\left(x|\omega_{j}\right)P\left(\omega_{j}\right)}{p\left(x\right)}$$</p>
 <p>其中$\omega$代表某个类，$x$代表某个特征。</p>
-<p>如果我们猜是sea bass，可想而知，我们的错误率是$p(salmon|x)$,否则错误率是$p(sea \ bass|x)$。用公式表达为<br>$$<br>P(error | x)=<br>\begin{cases}<br>P(salmon|x), &amp;\text{if we decide sea bass} \[2ex]<br>P(sea \ bass|x), &amp;\text{if we decide salmon}<br>\end{cases}<br>$$</p>
+<p>如果我们猜是sea bass，可想而知，我们的错误率是$p(salmon|x)$,否则错误率是$p(sea \ bass|x)$。用公式表达为<br>$$<br>P(error | x)=<br>\begin{cases}<br>P(salmon|x), &amp;\text{if we decide sea bass} \<br>P(sea \ bass|x), &amp;\text{if we decide salmon}<br>\end{cases}<br>$$</p>
 <p>即$P(error | x)=min[P(sea\ bass|x),P(salmon|x)]$</p>
 
     </main>
