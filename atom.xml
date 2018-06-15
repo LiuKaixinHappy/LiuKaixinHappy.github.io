@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-15T13:43:04.000Z</updated>
+  <updated>2018-06-15T14:31:52.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,12 @@
     <link href="http://yoursite.com/2018/06/07/MIT-PatternRecognition2/"/>
     <id>http://yoursite.com/2018/06/07/MIT-PatternRecognition2/</id>
     <published>2018-06-07T02:01:36.000Z</published>
-    <updated>2018-06-15T13:43:04.000Z</updated>
+    <updated>2018-06-15T14:31:52.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;先修知识&quot;&gt;&lt;a href=&quot;#先修知识&quot; class=&quot;headerlink&quot; title=&quot;先修知识&quot;&gt;&lt;/a&gt;先修知识&lt;/h2&gt;&lt;h3 id=&quot;Probability-Mass-Function&quot;&gt;&lt;a
-        
-      
+      &lt;h2 id=&quot;先修知识&quot;&gt;&lt;a href=&quot;#先修知识&quot; class=&quot;headerlink&quot; title=&quot;先修知识&quot;&gt;&lt;/a&gt;先修知识&lt;/h2&gt;&lt;h4 id=&quot;Probability-Mass-Function&quot;&gt;&lt;a href=&quot;#Probability-Mass-Function&quot; class=&quot;headerlink&quot; title=&quot;Probability Mass Function&quot;&gt;&lt;/a&gt;Probability Mass Function&lt;/h4&gt;&lt;p&gt;概率质量函数是针对离散值而言的，通常用大写字母P表示。假设某个事件$\omega_{1}$发生的概率为$P(\omega_{1})$,某个事件$\omega_{2}$发生的概率为$P(\omega_{2})$,两事件相互独立，则$P(\omega_{1})+P(\omega_{2})=1$。&lt;/p&gt;
+&lt;h4 id=&quot;Probability-Desity-Function&quot;&gt;&lt;a href=&quot;#Probability-Desity-Function&quot; class=&quot;headerlink&quot; title=&quot;Probability Desity  Function&quot;&gt;&lt;/a&gt;Probability Desity  Function&lt;/h4&gt;&lt;p&gt;概率密度函数是针对连续值而言的，通常用小写字母$p$表示。&lt;strong&gt;概率密度函数的在正无穷到负无穷上到积分为1&lt;/strong&gt;，在某一个区间中的概率用在该区间中的积分来表示。&lt;br&gt;
     
     </summary>
     
