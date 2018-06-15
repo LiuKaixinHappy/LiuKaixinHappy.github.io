@@ -76,6 +76,8 @@
     </script>
     
     
+    
+    
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
@@ -139,7 +141,7 @@
     </div>
     <header class="post-header">
       <h1 class="post-title" itemprop="name headline">
-        <a class="post-title-link post-title-link-external" href="/2018/06/07/MIT-PatternRecognition2/" itemprop="url">MIT-PatternRecognition2</a>
+        <a class="post-title-link post-title-link-external" href="/2018/06/07/MIT-PatternRecognition2/" itemprop="url">模式识别与分析——贝叶斯决策理论（理论部分）</a>
       </h1>
       <div class="post-meta">
         
@@ -170,7 +172,35 @@
     </header>
     <main class="post-main" itemprop="articleBody">
       
-      
+      <h2 id="先修知识"><a href="#先修知识" class="headerlink" title="先修知识"></a>先修知识</h2><h3 id="Probability-Mass-Function"><a href="#Probability-Mass-Function" class="headerlink" title="Probability Mass Function"></a>Probability Mass Function</h3><p>概率质量函数是针对离散值而言的，通常用大写字母P表示。假设某个事件ω<sub>1</sub>发生的概率为P(ω<sub>1</sub>),某个事件ω<sub>2</sub>发生的概率为P(ω<sub>2</sub>),两事件相互独立，则P(ω<sub>1</sub>)+P(ω<sub>2</sub>)=1。</p>
+<h4 id="Probability-Desity-Function"><a href="#Probability-Desity-Function" class="headerlink" title="Probability Desity  Function"></a>Probability Desity  Function</h4><p>概率密度函数是针对连续值而言的，通常用小写字母p表示。<strong>概率密度函数的在正无穷到负无穷上到积分为1</strong>，在某一个区间中的概率用在该区间中的积分来表示。</p>
+<h4 id="Prior-Probability"><a href="#Prior-Probability" class="headerlink" title="Prior Probability"></a>Prior Probability</h4><p>先验概率是指根据已有情况提前知道的概率，比如已知有一箱红黑混合的小球，其中红色小球共有100颗，黑色小球共有200颗，则红色小球的先验概率为P(red) = 1/3, 黑色小球的鲜艳概率为P(black) = 2/3。</p>
+<h4 id="条件概率"><a href="#条件概率" class="headerlink" title="条件概率"></a>条件概率</h4><p>假设将上述红黑混合的小球们放在两个箱子中，即A箱放20个红色小球，100个黑色小球，B箱放80个红色小球，100个黑色小球，则从A中取到红色小球的概率是多少？这就是条件概率。</p>
+<p>P(red|A) = P(red and A) / P(A) = (20 / 300) / (120 / 300) = 20 / 120 = 1/6</p>
+<p>那么，红色里面来自A的概率是多少呢？</p>
+<p>P(A|red) = P(A and red) / P(red) = (20 / 300) / (100 / 300) =  1 / 5</p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>贝叶斯决策理论（Bayesian decision theory）是一种根据概率进行决策的理论，在模式识别中，将分类当作决策进行预测。</p>
+<p>例如要将两种鱼sea bass和salmon进行分类，假设只有这两种鱼，随机取一条鱼，让我们猜这条鱼是什么鱼，我们第一想到的就是哪种鱼占总数数量多就猜哪种鱼，也就是根据先验概率进行猜测，即如果P(sea bass)&gt;P(salmon)，那么我们猜是sea bass，这样猜对的概率更大些，反之亦然。</p>
+<p>但是上述猜测方式只适合猜一次，试想如果猜测很多次，每次我们都猜是sea bass或者salmon，得到的结果一定不尽人意，毕竟我们知道，两种鱼都有可能出现，随着实验次数的增加，我们猜错的可能性是P(sea bass)和P(salmon)中更小的一个。</p>
+<p>通常情况下，我们做决策的依据可能不止一个，即我们会有更多特征来辅助决策。例如我们还知道鱼的光泽度x，假设x是一个随机连续变量，那么我们的猜测策略就要从刚才的纯根据先验概率升级为根据条件概率进一步猜测。想象一个场景，随机摸一条鱼，然后有人跟我们说，它的光泽度是5，那么我们会想，光泽度为5时，是sea bass的可能性大呢，还是salmon的可能性大呢？</p>
+<p>那么我们就需要计算p(sea bass|x=5)和p(salmon|x=5)，比较这两个值，取大的做猜测结果。</p>
+<p>想想我们已知的有哪些？首先我们知道，P(sea bass)和P(salmon), 其次我们知道每种鱼的光泽度分布，即p(x|sea bass)和p(x|salmon)。</p>
+<p>ok，现在根据已知计算p(sea bass|x)和p(salmon|x)。以p(sea bass|x)为例：</p>
+<ul>
+<li><p>(1): p(sea bass|x) = p(sea bass and x) / p(x)</p>
+</li>
+<li><p>(2): p(x|sea bass) = p(x and sea bass) / P(sea bass)</p>
+</li>
+<li><p>(3): 由(2)得：p(sea bass and x) =  p(x|sea bass) * P(sea bass)</p>
+</li>
+<li><p>(4): 把(3)带入(1)得：p(sea bass|x) = p(x|sea bass) * P(sea bass) / (x)</p>
+</li>
+</ul>
+<p>使用上述方法就可以计算出p(sea bass|x)的概率，p(sea bass|x)同理，如此就可以给出x=5时候的猜测。</p>
+<p>上述计算公式(4)就是<strong>贝叶斯公式</strong>，通用写法为：</p>
+<p>P\left(w_{j})\vline x\right) = \dfrac {p\lef( x\vline w_{j}\right)P\lef(w_{j}\rignt)}{p\left(x\right)}</p>
+<p>##</p>
+
       
     </main>
     <footer class="post-footer">
