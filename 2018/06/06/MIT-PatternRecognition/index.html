@@ -34,7 +34,7 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     
     
-    <link rel="alternate" href="/atom.xml" title="HappyKai's Kindom" type="application/atom+xml" />
+    <link rel="alternate" href="/atom.xml" title="LIU Kaixin's Kindom" type="application/atom+xml" />
     
     
     <link rel="shortcut icon" type="image/x-icon" href="/favicons/favicon.ico">
@@ -84,7 +84,7 @@
     <script defer type="text/javascript" src="/js/index.js"></script>
     
     <script defer type="text/javascript" src="/js/custom.js"></script>
-    <title>模式识别与分析——简介及大纲 | HappyKai's Kindom - Keep going</title>
+    <title>模式识别与分析——简介及大纲 | LIU Kaixin's Kindom - Keep going</title>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" lang="default"  data-spy="scroll" data-target=".list-group">
     
@@ -92,7 +92,7 @@
   <div class="container">
     <div class="header-container">
       <div class="header-title">
-        <h1 class="title"><a href="/">HappyKai's Kindom</a></h1>
+        <h1 class="title"><a href="/">LIU Kaixin's Kindom</a></h1>
         <h2 class="subtitle">Keep going</h2>
       </div>
       <div class="logo">
@@ -133,12 +133,12 @@
     <div class="post-block">
       <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/06/MIT-PatternRecognition/">
       <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-       <meta itemprop="name" content="HappyKai">
+       <meta itemprop="name" content="LIU Kaixin">
        <meta itemprop="description" content="">
        <meta itemprop="image" content="/images/avatar.png">
       </span>
       <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-       <meta itemprop="name" content="HappyKai's Kindom">
+       <meta itemprop="name" content="LIU Kaixin's Kindom">
       </span>
     </div>
     <header class="post-header">
@@ -171,9 +171,16 @@
       </div>
     </header>
     <main class="post-main" itemprop="articleBody">
-      <p>这是2006年秋季<a href="https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm" target="_blank" rel="noopener">MIT的一门课程</a>，英文名叫<em>Pattern Recognition and Analysis</em>，课程只给了Readings，是<em>Pattern Classification</em>，作者是Duda，在这里记下我的学习笔记。</p>
-<p>这门课涉及了表征和识别数字数据中的模式及特征的基础知识，讨论了用户建模(user modeling), 影响识别(affect recognition), 语音识别(speech recognition), 计算机视觉(computer vision), 生理分析(physiological analysis)等应用等基本工具和理论，覆盖了决策理论(decision theory)， 统计分类(statistical classification)，最大似然(maximum likelihood)和贝叶斯估计(Bayesian estimation)， 非参数方法(nonparametic methods)， 无监督学习(unsupervised learning)和聚类(clustering)，还包含了一些来自active reaserch等机器和人类学习相关话题。<br><a id="more"></a></p>
-<h1 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h1><ul>
+      <p>越往后研究，越发现数学是瓶颈，很多模型只停留在会用的阶段，稍遇到棘手的问题就发现自己现有的学识是多么浅薄，所以决定放下手头亟待解决的问题，静下来磨刀练剑。找到2006年秋季<a href="https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm" target="_blank" rel="noopener">MIT的一门课程</a>，英文名叫<em>Pattern Recognition and Analysis</em>，课程只给了Readings，是<em>Pattern Classification</em>，作者是Duda，结合一个印度的<a href="https://www.youtube.com/watch?v=mfePdDh9t6Q&amp;list=PLbMVogVj5nJQJMLb2CYw9rry0d5s0TQRp" target="_blank" rel="noopener">讲的很好的MOOC</a>，重新学习一下模式识别，在这里记下学习笔记（注意，这些文字只是我一段时光的记录，<strong>不是教程！不是教程！不是教程！</strong>）。当然，如果碰巧你也在学习这部分知识，可以一起探讨前行，感谢指出问题与不足。<br><a id="more"></a></p>
+<p>每个知识点的学习思路包含以下三个部分：</p>
+<ul>
+<li>数学部分（与知识点紧密相关的数学知识）</li>
+<li>理论部分（知识点的详细介绍）</li>
+<li>实战部分（知识点对应的代码实现，如果我找到合适的项目应用，也会一并写出来，开源）</li>
+</ul>
+<h1 id="MIT的大纲"><a href="#MIT的大纲" class="headerlink" title="MIT的大纲"></a>MIT的大纲</h1><p>不出意外的话我的学习线路也会跟着这个大纲。</p>
+<p>这门课涉及了表征和识别数字数据中的模式及特征的基础知识，讨论了用户建模(user modeling), 影响识别(affect recognition), 语音识别(speech recognition), 计算机视觉(computer vision), 生理分析(physiological analysis)等应用等基本工具和理论，覆盖了决策理论(decision theory)， 统计分类(statistical classification)，最大似然(maximum likelihood)和贝叶斯估计(Bayesian estimation)， 非参数方法(nonparametic methods)， 无监督学习(unsupervised learning)和聚类(clustering)，还包含了一些来自active reaserch等机器和人类学习相关话题。</p>
+<ul>
 <li>介绍模式识别(Pattern Recognition)，特征检测(Feature Detection)，分类(classification)</li>
 <li>综述概率论(Probability Theory)，条件概率(Conditional Probability)和贝叶斯规则(Bayes Rule)</li>
 <li>随机向量(Random Vectors)，期望(Expectation)，相关(Correlation)，协方差(Covariance)</li>
@@ -219,7 +226,7 @@
   
   
 <div class="reward" id="reward">
-  <p>如果这篇文章对您有帮助，感谢打赏0.66元:)</p>
+  <p>欢迎留言探讨，如果这篇文章对您有帮助，感谢打赏0.66元:)</p>
   <button id="reward-button" class="button" disable="enable">Reward</button>
   <div id="qr" class="qr" style="display: none;">
     
@@ -242,7 +249,7 @@
     </div>
     <div class="post-nav-prev post-nav-item">
       
-      <a href="/2018/06/07/MIT-PatternRecognition2/" rel="prev" title="模式识别与分析——贝叶斯决策理论（理论部分）"><span class="nav-title">模式识别与分析——贝叶斯决策理论（理论部分）</span><i class="fas fa-angle-right"></i></a>
+      <a href="/2018/06/07/MIT-PatternRecognition2/" rel="prev" title="模式识别与分析——贝叶斯决策理论（数学部分）"><span class="nav-title">模式识别与分析——贝叶斯决策理论（数学部分）</span><i class="fas fa-angle-right"></i></a>
       
     </div>
   </div>
@@ -292,9 +299,9 @@
   
 <div class="info sidebar-item" id="info">
   
-  <img class="author-avatar" src="/images/avatar.png" alt="HappyKai">
+  <img class="author-avatar" src="/images/avatar.png" alt="LIU Kaixin">
   
-  <h1 class="author-name">HappyKai</h1>
+  <h1 class="author-name">LIU Kaixin</h1>
   <h2 class="author-description"> </h2>
   <div class="site-count">
     
@@ -319,7 +326,7 @@
 <hr>
 <div class="post-toc sidebar-item" id="toc-div">
   <div><i class="fas fa-list-ol"></i>Table of Contents</div>
-  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#大纲"><span class="toc-text">大纲</span></a></li></ol></div>
+  <div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#MIT的大纲"><span class="toc-text">MIT的大纲</span></a></li></ol></div>
 </div>
 
 
@@ -376,7 +383,7 @@
     <div class="footer-container">
       <div class="footer-left">
         <div class="copyright">
-          <span class="author">HappyKai</span><span class="year"><i class="far fa-copyright"></i>2018</span><span class="creative-commons"><i class="fab fa-creative-commons"></i><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">BY-NC-SA 4.0</a></span>
+          <span class="author">LIU Kaixin</span><span class="year"><i class="far fa-copyright"></i>2018</span><span class="creative-commons"><i class="fab fa-creative-commons"></i><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">BY-NC-SA 4.0</a></span>
         </div>
         
         

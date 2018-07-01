@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HappyKai&#39;s Kindom</title>
+  <title>LIU Kaixin&#39;s Kindom</title>
   
   <subtitle>Keep going</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-16T01:57:44.000Z</updated>
+  <updated>2018-06-30T09:05:44.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>HappyKai</name>
+    <name>LIU Kaixin</name>
     
   </author>
   
@@ -18,14 +18,45 @@
   
   <entry>
     <title>模式识别与分析——贝叶斯决策理论（理论部分）</title>
-    <link href="http://yoursite.com/2018/06/07/MIT-PatternRecognition2/"/>
-    <id>http://yoursite.com/2018/06/07/MIT-PatternRecognition2/</id>
-    <published>2018-06-07T02:01:36.000Z</published>
-    <updated>2018-06-16T01:57:44.000Z</updated>
+    <link href="http://yoursite.com/2018/06/30/MIT-PatternRecognition3/"/>
+    <id>http://yoursite.com/2018/06/30/MIT-PatternRecognition3/</id>
+    <published>2018-06-30T08:01:04.000Z</published>
+    <updated>2018-06-30T09:05:44.000Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;先修知识&quot;&gt;&lt;a href=&quot;#先修知识&quot; class=&quot;headerlink&quot; title=&quot;先修知识&quot;&gt;&lt;/a&gt;先修知识&lt;/h1&gt;&lt;h2 id=&quot;Probability-Mass-Function&quot;&gt;&lt;a href=&quot;#Probability-Mass-Function&quot; class=&quot;headerlink&quot; title=&quot;Probability Mass Function&quot;&gt;&lt;/a&gt;Probability Mass Function&lt;/h2&gt;&lt;p&gt;概率质量函数是针对离散值而言的，通常用大写字母P表示。假设某个事&lt;br&gt;
+      
+      
+        
+        
+          &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;贝叶斯决策理论（Bayesian decision
+        
+      
+    
+    </summary>
+    
+      <category term="MIT" scheme="http://yoursite.com/categories/MIT/"/>
+    
+      <category term="Pattern Recognition" scheme="http://yoursite.com/categories/MIT/Pattern-Recognition/"/>
+    
+    
+      <category term="MIT课程" scheme="http://yoursite.com/tags/MIT%E8%AF%BE%E7%A8%8B/"/>
+    
+      <category term="模式识别" scheme="http://yoursite.com/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>模式识别与分析——贝叶斯决策理论（数学部分）</title>
+    <link href="http://yoursite.com/2018/06/07/MIT-PatternRecognition2/"/>
+    <id>http://yoursite.com/2018/06/07/MIT-PatternRecognition2/</id>
+    <published>2018-06-07T02:01:36.000Z</published>
+    <updated>2018-07-01T08:29:37.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;贝叶斯决策理论相关数学知识&quot;&gt;&lt;a href=&quot;#贝叶斯决策理论相关数学知识&quot; class=&quot;headerlink&quot; title=&quot;贝叶斯决策理论相关数学知识&quot;&gt;&lt;/a&gt;贝叶斯决策理论相关数学知识&lt;/h1&gt;&lt;p&gt;主要是概率论，如果你这部分基础牢固，可以跳过，直接看理论部分。&lt;/p&gt;
+&lt;h2 id=&quot;概率质量函数&quot;&gt;&lt;a href=&quot;#概率质量函数&quot; class=&quot;headerlink&quot; title=&quot;概率质量函数&quot;&gt;&lt;/a&gt;概率质量函数&lt;/h2&gt;&lt;p&gt;概率质量函数（Probability Mass Function）是针对离散值而言的，通常用大写字母P表示。假设某个事&lt;br&gt;
     
     </summary>
     
@@ -45,12 +76,11 @@
     <link href="http://yoursite.com/2018/06/06/MIT-PatternRecognition/"/>
     <id>http://yoursite.com/2018/06/06/MIT-PatternRecognition/</id>
     <published>2018-06-06T13:06:22.000Z</published>
-    <updated>2018-06-07T02:00:53.000Z</updated>
+    <updated>2018-06-30T08:55:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;这是2006年秋季&lt;a href=&quot;https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MIT的一门课程&lt;/a&gt;，英文名叫&lt;em&gt;Pattern Recognition and Analysis&lt;/em&gt;，课程只给了Readings，是&lt;em&gt;Pattern Classification&lt;/em&gt;，作者是Duda，在这里记下我的学习笔记。&lt;/p&gt;
-&lt;p&gt;这门课涉及了表征和识别数字数据中的模式及特征的基础知识，讨论了用户建模(user modeling), 影响识别(affect recognition), 语音识别(speech recognition), 计算机视觉(computer vision), 生理分析(physiological analysis)等应用等基本工具和理论，覆盖了决策理论(decision theory)， 统计分类(statistical classification)，最大似然(maximum likelihood)和贝叶斯估计(Bayesian estimation)， 非参数方法(nonparametic methods)， 无监督学习(unsupervised learning)和聚类(clustering)，还包含了一些来自active reaserch等机器和人类学习相关话题。&lt;br&gt;
+      &lt;p&gt;越往后研究，越发现数学是瓶颈，很多模型只停留在会用的阶段，稍遇到棘手的问题就发现自己现有的学识是多么浅薄，所以决定放下手头亟待解决的问题，静下来磨刀练剑。找到2006年秋季&lt;a href=&quot;https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MIT的一门课程&lt;/a&gt;，英文名叫&lt;em&gt;Pattern Recognition and Analysis&lt;/em&gt;，课程只给了Readings，是&lt;em&gt;Pattern Classification&lt;/em&gt;，作者是Duda，结合一个印度的&lt;a href=&quot;https://www.youtube.com/watch?v=mfePdDh9t6Q&amp;amp;list=PLbMVogVj5nJQJMLb2CYw9rry0d5s0TQRp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;讲的很好的MOOC&lt;/a&gt;，重新学习一下模式识别，在这里记下学习笔记（注意，这些文字只是我一段时光的记录，&lt;strong&gt;不是教程！不是教程！不是教程！&lt;/strong&gt;）。当然，如果碰巧你也在学习这部分知识，可以一起探讨前行，感谢指出问题与不足。&lt;br&gt;
     
     </summary>
     
