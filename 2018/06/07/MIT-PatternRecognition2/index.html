@@ -191,7 +191,7 @@
     </header>
     <main class="post-main" itemprop="articleBody">
       <h1 id="贝叶斯决策理论相关数学知识"><a href="#贝叶斯决策理论相关数学知识" class="headerlink" title="贝叶斯决策理论相关数学知识"></a>贝叶斯决策理论相关数学知识</h1><p>主要是概率论，如果你这部分基础牢固，可以跳过，直接看理论部分。<br><a id="more"></a></p>
-<h2 id="概率质量函数"><a href="#概率质量函数" class="headerlink" title="概率质量函数"></a>概率质量函数</h2><p>概率质量函数（Probability Mass Function）是针对离散值而言的，通常用大写字母P表示。假设某个事件$\omega<em>{1}$发生的概率为$P(\omega</em>{1})$,某个事件$\omega<em>{2}$发生的概率为$P(\omega</em>{2})$,两事件相互独立，则$P(\omega<em>{1})+P(\omega</em>{2})=1$。</p>
+<h2 id="概率质量函数"><a href="#概率质量函数" class="headerlink" title="概率质量函数"></a>概率质量函数</h2><p>概率质量函数（Probability Mass Function）是针对离散值而言的，通常用大写字母P表示。假设某个事件$\omega_{1}$发生的概率为$P(\omega_{1})$,某个事件$\omega_{2}$发生的概率为$P(\omega_{2})$,两事件相互独立，则$P(\omega_{1})+P(\omega_{2})=1$。</p>
 <h2 id="概率密度函数"><a href="#概率密度函数" class="headerlink" title="概率密度函数"></a>概率密度函数</h2><p>概率密度函数（Probability Desity Function）是针对连续值而言的，通常用小写字母$p$表示。<strong>概率密度函数的在正无穷到负无穷上到积分为1</strong>，在某一个区间中的概率用在该区间中的积分来表示。</p>
 <p>用数学语言描述就是：</p>
 <p>$<br>(1)p(\overrightarrow {x}) \geq 0, \forall\ \overrightarrow {x}\in R^n<br>$<br>$<br>(2)\int p(\overrightarrow {x})\ d\ \overrightarrow x=1<br>$</p>
@@ -251,7 +251,7 @@ x_1, x_2, x_3, \dots,x_n</script><p>则这n个features的Variance-Covariance mat
 {\vdots}&{\vdots}&{\ddots}&{\vdots}\\
 {Cov(x_n,x_1)}&{Cov(x_n,x_2)}&{\cdots}&{Cov(x_n,x_n)}\\
 \end{bmatrix}</script><p>这是一个对称矩阵symmetric matrix，也是一个正定矩阵<a href="https://en.wikipedia.org/wiki/Positive-definite_matrix" target="_blank" rel="noopener">Positive-definite matrix</a>，什么是正定矩阵呢，往下看。</p>
-<h2 id="Positive-definit-matrix"><a href="#Positive-definit-matrix" class="headerlink" title="Positive-definit matrix"></a>Positive-definit matrix</h2><p>大家应该都知道“欧几里得”距离是什么吧，假设我们有一个列向量$\overrightarrow x=[x<em>1, x_2, \dots,x_n]$和一个列向量$\overrightarrow y=[y_1, y_2, \dots, y_3]$,则x和y的欧几里得距离为$d(\overrightarrow x, \overrightarrow y)=\sqrt{\sum</em>{i=1}^n(x_i-y_i)^2}$。</p>
+<h2 id="Positive-definit-matrix"><a href="#Positive-definit-matrix" class="headerlink" title="Positive-definit matrix"></a>Positive-definit matrix</h2><p>大家应该都知道“欧几里得”距离是什么吧，假设我们有一个列向量$\overrightarrow x=[x_1, x_2, \dots,x_n]$和一个列向量$\overrightarrow y=[y_1, y_2, \dots, y_3]$,则x和y的欧几里得距离为$d(\overrightarrow x, \overrightarrow y)=\sqrt{\sum_{i=1}^n(x_i-y_i)^2}$。</p>
 <p>现在假设x代表第一个人的feature，y代表第二个人的feature，每个列向量只有两列，分别代表身高和体重。</p>
 <p>x的身高和体重分别为160cm和70kg，y的身高和体重分别为158cm和73kg，现在想衡量x和y的距离，如果用上面的欧式距离，就会有些问题，为什么这么说呢？</p>
 <script type="math/tex; mode=display">d(\overrightarrow x, \overrightarrow y)=\sqrt{(160-158)^2+(70-73)^2}=\sqrt{13}</script><p>如果同样是这两个人，把身高的单位换成mm，同样的方式计算x和有的距离：</p>
@@ -265,8 +265,8 @@ x_1, x_2, x_3, \dots,x_n</script><p>则这n个features的Variance-Covariance mat
     x_1-y_1 \\
     x_2-y_2 \\
 \end{array}\right)</script><p>这种写法与$d(\overrightarrow x, \overrightarrow y)=\sqrt{\sum_{i=1}^2(x_i-y_i)^2}$是等价的，一个矩阵与单位矩阵（identity matrix）相乘是不变的。</p>
-<p>现在我们对中间对单位矩阵做一些泛化，把它改成$\left(\begin{array}{cccc}<br>    w<em>1 &amp;    0 \<br>    0 &amp;    w_2\<br>\end{array}\right)$，则相应的距离公式变为$d(\overrightarrow x, \overrightarrow y)=\sqrt{\sum</em>{i=1}^2w_i(x_i-y_i)^2}$，这里的$w_i$取决于单位，这样就能解决我们的问题：当单位发生改变时，相同的两个人距离不发生改变。这种定义下，如果$w_1$和$w_2$严格大于等于0，那么最后的<strong>距离就是大于或者等于0的</strong></p>
-<p>你还可以继续泛化，把单位矩阵改成$\left(\begin{array}{cccc}<br>    w<em>{11} &amp;    w</em>{12} \<br>    w<em>{21} &amp;    w</em>{22} \<br>\end{array}\right)$，在这种定义下，w的值该取多少距离才会大于0呢？<br>满足这样的w有很多，比如随便举个例子：</p>
+<p>现在我们对中间对单位矩阵做一些泛化，把它改成$\left(\begin{array}{cccc}<br>    w_1 &amp;    0 \\<br>    0 &amp;    w_2\\<br>\end{array}\right)$，则相应的距离公式变为$d(\overrightarrow x, \overrightarrow y)=\sqrt{\sum_{i=1}^2w_i(x_i-y_i)^2}$，这里的$w_i$取决于单位，这样就能解决我们的问题：当单位发生改变时，相同的两个人距离不发生改变。这种定义下，如果$w_1$和$w_2$严格大于等于0，那么最后的<strong>距离就是大于或者等于0的</strong></p>
+<p>你还可以继续泛化，把单位矩阵改成$\left(\begin{array}{cccc}<br>    w_{11} &amp;    w_{12} \\<br>    w_{21} &amp;    w_{22} \\<br>\end{array}\right)$，在这种定义下，w的值该取多少距离才会大于0呢？<br>满足这样的w有很多，比如随便举个例子：</p>
 <script type="math/tex; mode=display">
 (x_1-y_1, x_2-y_2)\left(\begin{array}{cccc}
     2 &    -1 \\
@@ -276,7 +276,7 @@ x_1, x_2, x_3, \dots,x_n</script><p>则这n个features的Variance-Covariance mat
     x_2-y_2\\
 \end{array}\right) > 0, \ if(x_1 \neq y_1)\ or\ (x_2 \neq y_2)</script><p>这样我们的Positive-definite matrix就有了定义：</p>
 <blockquote>
-<p>$A<em>{n*n}$ is said to be POSITIVE DEFINITE if $a^TAa &gt; 0, \ \forall a \neq \left(\begin{array}{cccc}<br>    0 \<br>    0 \<br>    0 \<br>    . \<br>    . \<br>    . \<br>    0<br>\end{array}\right)</em>{n*1}$</p>
+<p>$A_{n<em>n}$ is said to be POSITIVE DEFINITE if $a^TAa &gt; 0, \ \forall a \neq \left(\begin{array}{cccc}<br>    0 \\<br>    0 \\<br>    0 \\<br>    . \\<br>    . \\<br>    . \\<br>    0<br>\end{array}\right)_{n</em>1}$</p>
 </blockquote>
 <p>如果：</p>
 <blockquote>
@@ -294,7 +294,7 @@ x_1, x_2, x_3, \dots,x_n</script><p>则这n个features的Variance-Covariance mat
 <h2 id="Matrix-inverse"><a href="#Matrix-inverse" class="headerlink" title="Matrix inverse"></a>Matrix inverse</h2><p>在线性代数中，如果一个nxn的方阵A存在一个nxn的方阵B使其满足</p>
 <script type="math/tex; mode=display">AB=BA=I_n</script><p>则称A为可逆矩阵，B是A的逆。$I_n$是nxn的Identity Matrix，也被含糊地称为Unit Matrix，单位矩阵，对角线是1，其余是0。</p>
 <h2 id="Transpose-of-Matrix"><a href="#Transpose-of-Matrix" class="headerlink" title="Transpose of Matrix"></a>Transpose of Matrix</h2><p>在线性代数里，矩阵的转置就是行列元素的索引对调，记做$A^T$:</p>
-<p>$$<br>[A^T]<em>{ij}=[A]</em>{ji}</p>
+<p>$$<br>[A^T]_{ij}=[A]_{ji}</p>
 <p>$$</p>
 <h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><ul>
 <li><a href="https://www.youtube.com/watch?v=mfePdDh9t6Q&amp;list=PLbMVogVj5nJQJMLb2CYw9rry0d5s0TQRp" target="_blank" rel="noopener">印度的讲的贼好的MOOC</a></li>

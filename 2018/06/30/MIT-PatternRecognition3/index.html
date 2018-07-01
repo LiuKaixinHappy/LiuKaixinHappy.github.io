@@ -217,7 +217,7 @@ P(salmon|x), &\text{if we decide sea bass} &\\
 P(sea \ bass|x), &\text{if we decide salmon}
 \end{cases}</script><p>即$P(error | x)=min[P(sea\ bass|x),P(salmon|x)]$</p>
 <h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>上面是一个简单的例子，在实际情况中，往往不止一个特征，不止一个类，决策（action）也不止是要分到某个类（比如发现两个分类的概率一样时可以拒绝决策），使用错误率计算代价可能太粗略，或许需要每一个action都计算一下损失函数，因此还需要在上面的基础上进行拓展。</p>
-<p>我们用$\omega<em>{1},\omega</em>{2},…,\omega<em>{c}$表示事件的$c$个类别，用$\alpha</em>{1}, \alpha<em>{2}, …,\alpha</em>{a}$表示可以采取的a个决策(action)。当类别为$\omega<em>{j}$，行动为$\alpha</em>{i}$时，损失函数为$\lambda\left(\alpha<em>{i}|\omega</em>{j}\right)$。特征向量$x$表示一个$d$维的随机向量，$p\left(x|\omega<em>{j}\right)$表示$x$的条件密度函数。$P(\omega</em>{j})$表示$\omega_{j}$的先验概率。则后验概率可以用贝叶斯公式计算出来：</p>
+<p>我们用$\omega_{1},\omega_{2},…,\omega_{c}$表示事件的$c$个类别，用$\alpha_{1}, \alpha_{2}, …,\alpha_{a}$表示可以采取的a个决策(action)。当类别为$\omega_{j}$，行动为$\alpha_{i}$时，损失函数为$\lambda\left(\alpha_{i}|\omega_{j}\right)$。特征向量$x$表示一个$d$维的随机向量，$p\left(x|\omega_{j}\right)$表示$x$的条件密度函数。$P(\omega_{j})$表示$\omega_{j}$的先验概率。则后验概率可以用贝叶斯公式计算出来：</p>
 <script type="math/tex; mode=display">P\left(\omega_{j} | x \right) = \frac{p\left(x|\omega_{j}\right)P\left(\omega_{j}\right)}{p\left(x\right)}</script><p>其中，$p(x)$为：</p>
 <script type="math/tex; mode=display">
 p(x)=\sum^c_{j=1}p(x|\omega_j)P(\omega_j)</script><p>假设我们针对一个具体的特征$x$,采取行动$\alpha_i$,实际类别是$\omega_j$,则损失函数为$\lambda(\alpha_i|\omega_j)$,后验概率为$P(\omega_j|x)$, 在决策理论的术语中，可预期的损失叫做风险$risk$，$R(\alpha_i|x)$叫做条件风险$conditional\ risk$，则条件风险为</p>
