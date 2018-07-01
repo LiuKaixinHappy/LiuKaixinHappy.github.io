@@ -233,7 +233,7 @@ Variance=\dfrac {1}{n}\sum_{i=1}^{n}(x_i-\bar x)^2</script><blockquote>
 <h3 id="Covariance"><a href="#Covariance" class="headerlink" title="Covariance"></a>Covariance</h3><p>为了阐释协方差Covariance，我们需要两个变量(x, y)，假设x是身高，单位是cm，y是体重，单位是kg。<br>假设有n个observations：</p>
 <script type="math/tex; mode=display">(x_1,y_1),(x_2, y_2), ..., (x_n, y_n)</script><p>你要做的是plot these points，这里我给出三个这样的plots，灰色区域是一些列点：<br><img src="/imgs/MIT-PatternRecognition2-1.JPG" alt="plot the points"><br>图（1）中，x增长，y随x也增长，所以我们用一些大于0的数（quantity）来代表这个关系；<br>图（2）中，x增长，y随x减小，我们用一些小于0的数（quantity）来代表这个关系；<br>图（3）中，x增长，y在某一个范围内波动，所以我们用一些非常接近0的数（quantity）来代表这个关系。</p>
 <p>那么这个数（quantity）到底是什么呢？</p>
-<p>对于所有的x和y，我们找到它们的均值，然后将其作为新坐标轴的原点：<br><img src="https://upload-images.jianshu.io/upload_images/4964755-4fa3427c50436d5a.JPG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="new axis"><br>那么所有点的x，y值都会变化，把这些新的值乘起来求均值，会得到什么呢？</p>
+<p>对于所有的x和y，我们找到它们的均值，然后将其作为新坐标轴的原点：<br><img src="/imgs/MIT-PatternRecognition2-2.JPG" alt="new axis"><br>那么所有点的x，y值都会变化，把这些新的值乘起来求均值，会得到什么呢？</p>
 <p>比如图（1），新坐标系第一象限的x，y都大于0，乘积也会大于0，第三象限x，y都小于0，乘积也会大于0，第二和第四象限乘积会小于0，但是一三象限的点数量明显大于二四象限的点，所以我们计算</p>
 <script type="math/tex; mode=display">
 \dfrac{1}{n}\sum_{i=1}^n(x_i - \bar x)(y_i - \bar y)</script><p>会得到一个大于0的值。</p>
