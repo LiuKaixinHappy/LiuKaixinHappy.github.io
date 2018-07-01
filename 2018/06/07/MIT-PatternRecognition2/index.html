@@ -275,13 +275,17 @@ x_1, x_2, x_3, \dots,x_n</script><p>则这n个features的Variance-Covariance mat
     x_1-y_1 \\
     x_2-y_2\\
 \end{array}\right) > 0, \ if(x_1 \neq y_1)\ or\ (x_2 \neq y_2)</script><p>这样我们的Positive-definite matrix就有了定义：</p>
-<blockquote>
-<p>$A_{n<em>n}$ is said to be POSITIVE DEFINITE if $a^TAa &gt; 0, \ \forall a \neq \left(\begin{array}{cccc}<br>    0 \\<br>    0 \\<br>    0 \\<br>    . \\<br>    . \\<br>    . \\<br>    0<br>\end{array}\right)_{n</em>1}$</p>
-</blockquote>
-<p>如果：</p>
-<blockquote>
-<p><script type="math/tex">a^TAa \geq 0, \ \forall a.</script> $A_{n*n}$ is said to be POSITIVE SEMI DEFINITE, in some books, this is also written as NON NEGATIVE DEFINITE.</p>
-</blockquote>
+<p>$A_{n*n}$ 可以被称作是positive-definite的，当满足：</p>
+<script type="math/tex; mode=display">a^TAa > 0, \ \forall a \neq \left(\begin{array}{cccc}
+    0 \\
+    0 \\
+    0 \\
+    . \\
+    . \\
+    . \\
+    0
+\end{array}\right)_{n*1}</script><p>如果</p>
+<script type="math/tex; mode=display">a^TAa \geq 0, \ \forall a.</script><p>那么$A_{n*n}$可以被称作是non-negative definite.</p>
 <p>在线性代数中，很容易找到positive-definite matrix的定义，那么我们为什么需要一个这样的矩阵呢？从上面那个“距离”的角度来说，我们需要这样的矩阵是因为我们要确保距离是大于等于0的，如果x和y是完全一样的，我们希望其距离为0，否则我们希望一个大于0的数来表示不同程度，因此我们把距离公式写成$a^TAa$的矩阵形式。</p>
 <p>Variance-Covariance matrix  可以被证明是NON-NEGATIVE DEFINITE的，实际上通常是POSITIVE-DEFINITE的，在正态分布（高斯密度函数）下，我们认为Variance-Covariance matrix 是POSITIVE-DEFINITE的，这就是我们为什么会在高斯密度函数的分母上把它写成$|\Sigma|^{1/2}$的原因。如果Variance-Covariance matrix是non-negative definite的，就会有一些properties，比如矩阵的行列式是它的特征值（the determinant of matrix is product of its eigenvalues），所有的特征值都是大于等于0的，如果variance-covariance matrix是positive-definite的，那么所有eigenvalues都是严格大于0的，所以可以把它做分母。</p>
 <h2 id="Determinant"><a href="#Determinant" class="headerlink" title="Determinant"></a>Determinant</h2><p>在线性代数里，Determinant是一个可以从方形矩阵中计算出来的值。矩阵的Determinant记做$det(A)\ or \ detA \ or \ |A|$。在几何学里，它被视作描述矩阵线性变换的scaling factor。</p>
