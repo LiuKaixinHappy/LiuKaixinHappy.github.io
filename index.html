@@ -172,7 +172,9 @@
     </header>
     <main class="post-main" itemprop="articleBody">
       
-      <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>贝叶斯决策理论（Bayesian decision theory）是一种根据概率进行决策的理论，在模式识别中，将分类当作决策进行预测。<br>
+      <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>通常来讲，在解决一个分类问题时，我们的思维过程可以分为下面这三个部分：</p>
+<p><strong>Measurement Space —-&gt; Feature Space —-&gt; Decision Space</strong></p>
+<p>先思考如何测量衡量（可以理解为抽象这个问题并通过某种方式得到相应的数据），然后根据测量得到的结果提取特征，最后作出决策，有时Measurement Space和Feature Space是和在一起的。比如识别“B”和“8”，可能立刻马上想到的最简单的方法是：把“B”和“8”放入一个长方形，观察可以得到，“B”的左边竖线是平行于长方形的左边框的，而“8”不是，所以选取长方形左边框上一系列点，过这些做垂线段，找到与B/8的左边的交点，测量这一些列垂线段的长度（This is Measurement Space），如果长度几乎一样（This is Feature Space），则为B（This is Decision Space），否则为8。<br>
       
     </main>
     <footer class="post-footer">

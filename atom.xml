@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-01T08:32:05.000Z</updated>
+  <updated>2018-07-02T07:47:31.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,11 +21,13 @@
     <link href="http://yoursite.com/2018/06/30/MIT-PatternRecognition3/"/>
     <id>http://yoursite.com/2018/06/30/MIT-PatternRecognition3/</id>
     <published>2018-06-30T08:01:04.000Z</published>
-    <updated>2018-07-01T08:32:05.000Z</updated>
+    <updated>2018-07-02T07:47:31.000Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;贝叶斯决策理论（Bayesian decision theory）是一种根据概率进行决策的理论，在模式识别中，将分类当作决策进行预测。&lt;br&gt;
+      &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;通常来讲，在解决一个分类问题时，我们的思维过程可以分为下面这三个部分：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Measurement Space —-&amp;gt; Feature Space —-&amp;gt; Decision Space&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先思考如何测量衡量（可以理解为抽象这个问题并通过某种方式得到相应的数据），然后根据测量得到的结果提取特征，最后作出决策，有时Measurement Space和Feature Space是和在一起的。比如识别“B”和“8”，可能立刻马上想到的最简单的方法是：把“B”和“8”放入一个长方形，观察可以得到，“B”的左边竖线是平行于长方形的左边框的，而“8”不是，所以选取长方形左边框上一系列点，过这些做垂线段，找到与B/8的左边的交点，测量这一些列垂线段的长度（This is Measurement Space），如果长度几乎一样（This is Feature Space），则为B（This is Decision Space），否则为8。&lt;br&gt;
     
     </summary>
     
@@ -45,7 +47,7 @@
     <link href="http://yoursite.com/2018/06/07/MIT-PatternRecognition2/"/>
     <id>http://yoursite.com/2018/06/07/MIT-PatternRecognition2/</id>
     <published>2018-06-07T02:01:36.000Z</published>
-    <updated>2018-07-01T09:23:28.000Z</updated>
+    <updated>2018-07-02T05:46:49.000Z</updated>
     
     <summary type="html">
     
