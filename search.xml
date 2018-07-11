@@ -6,7 +6,7 @@
       <title>第五期特训营第一期直播</title>
       <link href="/2018/07/11/TWSchool/"/>
       <url>/2018/07/11/TWSchool/</url>
-      <content type="html"><![CDATA[<h1 id="视频地址"><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h1><a id="more"></a><video id="video" controls preload="auto" poster="/imgs/TWSchool-3.png" width:100%="">      <source id="mp4" src="https://s3.cn-north-1.amazonaws.com.cn/live-video/%E7%AC%AC%E4%B8%80%E6%9C%9F%E7%9B%B4%E6%92%AD-720.mp4" type="video/mp4">      <p>Your user agent does not support the HTML5 Video element.</p></video><h1 id="工具下载地址"><a href="#工具下载地址" class="headerlink" title="工具下载地址"></a>工具下载地址</h1><h2 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h2><ul><li><a href="https://www.alfredapp.com" target="_blank" rel="noopener">Alfred</a></li><li><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li><li><a href="https://brew.sh" target="_blank" rel="noopener">Homebrew下载</a>和<a href="https://www.jianshu.com/p/c2bdc1997a9d" target="_blank" rel="noopener">使用说明</a></li><li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH" target="_blank" rel="noopener">zsh下载地址</a>和<a href="https://ohmyz.sh" target="_blank" rel="noopener">oh my zsh下载地址</a>和<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes" target="_blank" rel="noopener">zsh主题</a></li></ul><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><ul><li><a href="https://www.jianshu.com/p/8fd212f5c01f" target="_blank" rel="noopener">Wox</a></li></ul><h1 id="集成开发环境"><a href="#集成开发环境" class="headerlink" title="集成开发环境"></a>集成开发环境</h1><ul><li><a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="noopener">webstorm下载地址</a></li><li><a href="http://idea.lanyus.com" target="_blank" rel="noopener">webstorm破解地址</a></li><li>webstorm常用快捷键<br><img src="/imgs/TWSchool-1.png" alt="Mac"><br><img src="/imgs/TWSchool-2.png" alt="Windows"></li></ul>]]></content>
+      <content type="html"><![CDATA[<h1 id="视频地址"><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h1><a id="more"></a><video id="video" controls preload="auto" poster="/imgs/TWSchool-3.png" style="”width=" 100%;="" height="100%;" object-fit:="" contain="">      <source id="mp4" src="https://s3.cn-north-1.amazonaws.com.cn/live-video/%E7%AC%AC%E4%B8%80%E6%9C%9F%E7%9B%B4%E6%92%AD-720.mp4" type="video/mp4">      <p>Your user agent does not support the HTML5 Video element.</p></video><h1 id="工具下载地址"><a href="#工具下载地址" class="headerlink" title="工具下载地址"></a>工具下载地址</h1><h2 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h2><ul><li><a href="https://www.alfredapp.com" target="_blank" rel="noopener">Alfred</a></li><li><a href="https://www.mediaatelier.com/CheatSheet/" target="_blank" rel="noopener">CheatSheet</a></li><li><a href="https://brew.sh" target="_blank" rel="noopener">Homebrew下载</a>和<a href="https://www.jianshu.com/p/c2bdc1997a9d" target="_blank" rel="noopener">使用说明</a></li><li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH" target="_blank" rel="noopener">zsh下载地址</a>和<a href="https://ohmyz.sh" target="_blank" rel="noopener">oh my zsh下载地址</a>和<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes" target="_blank" rel="noopener">zsh主题</a></li></ul><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><ul><li><a href="https://www.jianshu.com/p/8fd212f5c01f" target="_blank" rel="noopener">Wox</a></li></ul><h1 id="集成开发环境"><a href="#集成开发环境" class="headerlink" title="集成开发环境"></a>集成开发环境</h1><ul><li><a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="noopener">webstorm下载地址</a></li><li><a href="http://idea.lanyus.com" target="_blank" rel="noopener">webstorm破解地址</a></li><li>webstorm常用快捷键<br><img src="/imgs/TWSchool-1.png" alt="Mac"><br><img src="/imgs/TWSchool-2.png" alt="Windows"></li></ul>]]></content>
       
       <categories>
           
@@ -104,17 +104,17 @@
   
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<p></p>]]></content>
-    </entry>
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<p></p>]]></content>
     </entry>
     
     <entry>
