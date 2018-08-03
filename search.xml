@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>第五期特训营第七期直播</title>
+      <link href="/2018/08/04/TWSchool-7/"/>
+      <url>/2018/08/04/TWSchool-7/</url>
+      <content type="html"><![CDATA[<h1 id="视频地址"><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h1><a id="more"></a><video id="video" controls preload="auto" poster="/imgs/TWSchool-3.png" style="width:100%">      <source id="mp4" src="https://s3.cn-north-1.amazonaws.com.cn/tws-courses-resource/live-video/TWSChool7-CSS-2.mp4" type="video/mp4">      <p>Your user agent does not support the HTML5 Video element.</p></video><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>-<a href="https://gitee.com/happysunrise/css3animation.git" target="_blank" rel="noopener">视频Demo仓库地址</a></p>]]></content>
+      
+      <categories>
+          
+          <category> TWSchool </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TWSchool </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>第五期特训营第六期直播</title>
       <link href="/2018/08/01/TWSchool-6/"/>
       <url>/2018/08/01/TWSchool-6/</url>
