@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-10T10:17:18.603Z</updated>
+  <updated>2018-08-15T00:16:29.979Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TWSchool-9</title>
+    <link href="http://yoursite.com/2018/08/15/TWSchool-9/"/>
+    <id>http://yoursite.com/2018/08/15/TWSchool-9/</id>
+    <published>2018-08-15T00:15:38.000Z</published>
+    <updated>2018-08-15T00:16:29.979Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;视频地址&quot;&gt;&lt;a href=&quot;#视频地址&quot; class=&quot;headerlink&quot; title=&quot;视频地址&quot;&gt;&lt;/a&gt;视频地址&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="TWSchool" scheme="http://yoursite.com/categories/TWSchool/"/>
+    
+    
+      <category term="TWSchool" scheme="http://yoursite.com/tags/TWSchool/"/>
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>第五期特训营第八期直播</title>
