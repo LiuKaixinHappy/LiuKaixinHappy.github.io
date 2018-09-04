@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-29T04:59:19.880Z</updated>
+  <updated>2018-09-04T10:35:38.182Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第五期特训营第十二期直播</title>
+    <title>第十三期直播</title>
+    <link href="http://yoursite.com/2018/09/04/TWSchool-13/"/>
+    <id>http://yoursite.com/2018/09/04/TWSchool-13/</id>
+    <published>2018-09-04T10:33:10.000Z</published>
+    <updated>2018-09-04T10:35:38.182Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;视频地址&quot;&gt;&lt;a href=&quot;#视频地址&quot; class=&quot;headerlink&quot; title=&quot;视频地址&quot;&gt;&lt;/a&gt;视频地址&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="TWSchool" scheme="http://yoursite.com/categories/TWSchool/"/>
+    
+    
+      <category term="TWSchool" scheme="http://yoursite.com/tags/TWSchool/"/>
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第十二期直播</title>
     <link href="http://yoursite.com/2018/08/29/TWSchool-12/"/>
     <id>http://yoursite.com/2018/08/29/TWSchool-12/</id>
     <published>2018-08-29T04:55:32.000Z</published>
-    <updated>2018-08-29T04:59:19.880Z</updated>
+    <updated>2018-09-04T10:35:49.960Z</updated>
     
     <summary type="html">
     
@@ -39,11 +61,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第十一期直播</title>
+    <title>第十一期直播</title>
     <link href="http://yoursite.com/2018/08/22/TWSchool-11/"/>
     <id>http://yoursite.com/2018/08/22/TWSchool-11/</id>
     <published>2018-08-22T09:04:04.000Z</published>
-    <updated>2018-08-22T09:10:33.288Z</updated>
+    <updated>2018-09-04T10:35:37.266Z</updated>
     
     <summary type="html">
     
@@ -61,11 +83,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第十期直播</title>
+    <title>第十期直播</title>
     <link href="http://yoursite.com/2018/08/18/TWSchool-10/"/>
     <id>http://yoursite.com/2018/08/18/TWSchool-10/</id>
     <published>2018-08-18T00:37:16.000Z</published>
-    <updated>2018-08-18T01:15:21.319Z</updated>
+    <updated>2018-09-04T10:35:35.234Z</updated>
     
     <summary type="html">
     
@@ -83,11 +105,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第九期直播</title>
+    <title>第九期直播</title>
     <link href="http://yoursite.com/2018/08/15/TWSchool-9/"/>
     <id>http://yoursite.com/2018/08/15/TWSchool-9/</id>
     <published>2018-08-15T00:15:38.000Z</published>
-    <updated>2018-08-15T11:20:44.515Z</updated>
+    <updated>2018-09-04T10:35:31.034Z</updated>
     
     <summary type="html">
     
@@ -105,11 +127,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第八期直播</title>
+    <title>第八期直播</title>
     <link href="http://yoursite.com/2018/08/10/TWSchool-8/"/>
     <id>http://yoursite.com/2018/08/10/TWSchool-8/</id>
     <published>2018-08-10T10:15:36.000Z</published>
-    <updated>2018-08-10T10:17:18.603Z</updated>
+    <updated>2018-09-04T10:35:34.366Z</updated>
     
     <summary type="html">
     
@@ -127,11 +149,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第七期直播</title>
+    <title>第七期直播</title>
     <link href="http://yoursite.com/2018/08/04/TWSchool-7/"/>
     <id>http://yoursite.com/2018/08/04/TWSchool-7/</id>
     <published>2018-08-03T23:53:36.000Z</published>
-    <updated>2018-08-03T23:55:50.567Z</updated>
+    <updated>2018-09-04T10:35:33.095Z</updated>
     
     <summary type="html">
     
@@ -149,11 +171,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第六期直播</title>
+    <title>第六期直播</title>
     <link href="http://yoursite.com/2018/08/01/TWSchool-6/"/>
     <id>http://yoursite.com/2018/08/01/TWSchool-6/</id>
     <published>2018-08-01T09:40:57.000Z</published>
-    <updated>2018-08-06T05:57:38.097Z</updated>
+    <updated>2018-09-04T10:35:31.909Z</updated>
     
     <summary type="html">
     
@@ -171,11 +193,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第五期直播</title>
+    <title>第五期直播</title>
     <link href="http://yoursite.com/2018/07/27/TWSchool-5/"/>
     <id>http://yoursite.com/2018/07/27/TWSchool-5/</id>
     <published>2018-07-27T08:04:12.000Z</published>
-    <updated>2018-07-27T08:11:46.661Z</updated>
+    <updated>2018-09-04T10:35:36.372Z</updated>
     
     <summary type="html">
     
@@ -193,11 +215,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第四期直播</title>
+    <title>第四期直播</title>
     <link href="http://yoursite.com/2018/07/24/TWSchool-4/"/>
     <id>http://yoursite.com/2018/07/24/TWSchool-4/</id>
     <published>2018-07-24T14:49:48.000Z</published>
-    <updated>2018-07-24T14:54:01.682Z</updated>
+    <updated>2018-09-04T10:35:49.059Z</updated>
     
     <summary type="html">
     
@@ -215,11 +237,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第三期直播</title>
+    <title>第三期直播</title>
     <link href="http://yoursite.com/2018/07/18/TWSchool-3/"/>
     <id>http://yoursite.com/2018/07/18/TWSchool-3/</id>
     <published>2018-07-18T08:06:53.000Z</published>
-    <updated>2018-07-18T09:11:04.000Z</updated>
+    <updated>2018-09-04T10:35:48.031Z</updated>
     
     <summary type="html">
     
@@ -237,11 +259,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第二期直播</title>
+    <title>第二期直播</title>
     <link href="http://yoursite.com/2018/07/13/TWSchool-2/"/>
     <id>http://yoursite.com/2018/07/13/TWSchool-2/</id>
     <published>2018-07-13T09:16:44.000Z</published>
-    <updated>2018-07-14T03:30:23.000Z</updated>
+    <updated>2018-09-04T10:35:46.914Z</updated>
     
     <summary type="html">
     
@@ -259,11 +281,11 @@
   </entry>
   
   <entry>
-    <title>第五期特训营第一期直播</title>
+    <title>第一期直播</title>
     <link href="http://yoursite.com/2018/07/11/TWSchool/"/>
     <id>http://yoursite.com/2018/07/11/TWSchool/</id>
     <published>2018-07-11T07:40:49.000Z</published>
-    <updated>2018-07-11T08:55:06.000Z</updated>
+    <updated>2018-09-04T10:35:45.160Z</updated>
     
     <summary type="html">
     
