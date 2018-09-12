@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-08T03:10:08.246Z</updated>
+  <updated>2018-09-12T09:59:14.163Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第十五期直播</title>
+    <link href="http://yoursite.com/2018/09/12/TWSchool-15/"/>
+    <id>http://yoursite.com/2018/09/12/TWSchool-15/</id>
+    <published>2018-09-12T09:58:25.000Z</published>
+    <updated>2018-09-12T09:59:14.163Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;视频地址&quot;&gt;&lt;a href=&quot;#视频地址&quot; class=&quot;headerlink&quot; title=&quot;视频地址&quot;&gt;&lt;/a&gt;视频地址&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="TWSchool" scheme="http://yoursite.com/categories/TWSchool/"/>
+    
+    
+      <category term="TWSchool" scheme="http://yoursite.com/tags/TWSchool/"/>
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>第十四期直播</title>
