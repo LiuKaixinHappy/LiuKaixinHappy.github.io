@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-21T13:47:32.519Z</updated>
+  <updated>2018-09-26T05:16:03.486Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第十七期直播</title>
+    <link href="http://yoursite.com/2018/09/26/TWSchool-18/"/>
+    <id>http://yoursite.com/2018/09/26/TWSchool-18/</id>
+    <published>2018-09-26T05:15:03.000Z</published>
+    <updated>2018-09-26T05:16:03.486Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;视频地址&quot;&gt;&lt;a href=&quot;#视频地址&quot; class=&quot;headerlink&quot; title=&quot;视频地址&quot;&gt;&lt;/a&gt;视频地址&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="TWSchool" scheme="http://yoursite.com/categories/TWSchool/"/>
+    
+    
+      <category term="TWSchool" scheme="http://yoursite.com/tags/TWSchool/"/>
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>第十七期直播</title>
@@ -426,30 +448,6 @@
     <summary type="html">
     
       &lt;h1 id=&quot;贝叶斯决策理论相关数学知识&quot;&gt;&lt;a href=&quot;#贝叶斯决策理论相关数学知识&quot; class=&quot;headerlink&quot; title=&quot;贝叶斯决策理论相关数学知识&quot;&gt;&lt;/a&gt;贝叶斯决策理论相关数学知识&lt;/h1&gt;&lt;p&gt;主要是概率论，如果你这部分基础牢固，可以跳过，直接看理论部分。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="MIT" scheme="http://yoursite.com/categories/MIT/"/>
-    
-      <category term="Pattern Recognition" scheme="http://yoursite.com/categories/MIT/Pattern-Recognition/"/>
-    
-    
-      <category term="MIT课程" scheme="http://yoursite.com/tags/MIT%E8%AF%BE%E7%A8%8B/"/>
-    
-      <category term="模式识别" scheme="http://yoursite.com/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>模式识别与分析——简介及大纲</title>
-    <link href="http://yoursite.com/2018/06/06/MIT-PatternRecognition/"/>
-    <id>http://yoursite.com/2018/06/06/MIT-PatternRecognition/</id>
-    <published>2018-06-06T13:06:22.000Z</published>
-    <updated>2018-07-11T07:40:59.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;越往后研究，越发现数学是瓶颈，很多模型只停留在会用的阶段，稍遇到棘手的问题就发现自己现有的学识是多么浅薄，所以决定放下手头亟待解决的问题，静下来磨刀练剑。找到2006年秋季&lt;a href=&quot;https://ocw.mit.edu/courses/media-arts-and-sciences/mas-622j-pattern-recognition-and-analysis-fall-2006/index.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;MIT的一门课程&lt;/a&gt;，英文名叫&lt;em&gt;Pattern Recognition and Analysis&lt;/em&gt;，课程只给了Readings，是&lt;em&gt;Pattern Classification&lt;/em&gt;，作者是Duda，结合一个印度的&lt;a href=&quot;https://www.youtube.com/watch?v=mfePdDh9t6Q&amp;amp;list=PLbMVogVj5nJQJMLb2CYw9rry0d5s0TQRp&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;讲的很好的MOOC&lt;/a&gt;，重新学习一下模式识别，在这里记下学习笔记（注意，这些文字只是我一段时光的记录，&lt;strong&gt;不是教程！不是教程！不是教程！&lt;/strong&gt;）。当然，如果碰巧你也在学习这部分知识，可以一起探讨前行，感谢指出问题与不足。&lt;br&gt;
     
     </summary>
     
