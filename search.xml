@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>第二十期直播</title>
+      <link href="/2018/10/03/TWSchool-20/"/>
+      <url>/2018/10/03/TWSchool-20/</url>
+      <content type="html"><![CDATA[<h1 id="视频地址"><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h1><a id="more"></a><video id="video" controls preload="auto" poster="/imgs/TWSchool-3.png" style="width:100%">      <source id="mp4" src="https://s3.cn-north-1.amazonaws.com.cn/tws-courses-resource/live-video/react.mp4" type="video/mp4">      <p>Your user agent does not support the HTML5 Video element.</p></video>]]></content>
+      
+      <categories>
+          
+          <category> TWSchool </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TWSchool </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>第十九期直播</title>
       <link href="/2018/09/28/TWSchool-19/"/>
       <url>/2018/09/28/TWSchool-19/</url>
@@ -518,16 +541,16 @@
   
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
